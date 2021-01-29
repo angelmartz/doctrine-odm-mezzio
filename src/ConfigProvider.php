@@ -44,6 +44,7 @@ class ConfigProvider
     {
         return [
             'documentmanager' => Service\DocumentManagerFactory::class,
+            'connection'     => Service\ConnectionFactory::class,
             'configuration'  => Service\ConfigurationFactory::class,
         ];
     }

@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 namespace AngelMartz\DoctrineODMMezzio\Service;
+
 use Doctrine\ODM\MongoDB\Configuration;
 use Psr\Container\ContainerInterface;
 
