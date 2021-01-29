@@ -42,7 +42,9 @@ class ConfigProvider
 
     public function getDoctrineFactoryConfig(): array
     {
-        return [];
+        return [
+            'configuration'  => Service\ConfigurationFactory::class,
+        ];
     }
     
 }
